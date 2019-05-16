@@ -1,6 +1,6 @@
->在业务域名日常管理操作中,我们需要反复登录阿里云或者腾讯云的云控制台,比如新的业务上线,在 Nginx 加段 server {} 后,直接使用下面工具可以更加快捷的对域名管理,不需要反复登录云服务商管理控制台
+# [XABC](https://xabcloud.com)
 
-![image](https://s.xabcloud.com/_media/dns.png)
+>在业务域名日常管理操作中,我们需要反复登录阿里云或者腾讯云的云控制台,比如新的业务上线,在 Nginx 加段 server {} 后,直接使用下面工具可以更加快捷的对域名管理,不需要反复登录云服务商管理控制台
 
 ## 原理
 
@@ -155,7 +155,4 @@ main
 对阿里云来说,删除域名解析记录,只要确认子域名和解析类型即可删除  
 如下图示例,其中 xabcstack.com 域名管理在腾讯云,而 xabc.tech 域名管理在阿里云
 
-![image](https://s.xabcloud.com/_media/qddns.png)
-![image](https://s.xabcloud.com/_media/addns.png)
-
-?>参考 [腾讯云 API](https://cloud.tencent.com/document/api) [阿里云 API](https://developer.aliyun.com/api)
+参考 [腾讯云 API](https://cloud.tencent.com/document/api) [阿里云 API](https://developer.aliyun.com/api)
