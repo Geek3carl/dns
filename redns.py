@@ -5,9 +5,9 @@
 # Version      : 1.0
 # Author       : XABCLOUD.COM
 #*************************************************
-master
 import sys
 from subprocess import Popen
+test
 #-----------------VAR-----------------------------
 fileName = sys.argv[1]
 domain = sys.argv[2]
