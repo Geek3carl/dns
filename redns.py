@@ -5,6 +5,7 @@
 # Version      : 1.0
 # Author       : XABCLOUD.COM
 #*************************************************
+test
 import sys
 from subprocess import Popen
 #-----------------VAR-----------------------------
